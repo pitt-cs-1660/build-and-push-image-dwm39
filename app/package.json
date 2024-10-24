@@ -7,9 +7,10 @@
   "author": "cs1660",
   "license": "May contain vulnerabilities!",
   "dependencies": {
+    "container-web-test": "file:",
     "express": "4.18.2",
-    "pug": "3.0.2",
     "mocha": "10.2.0",
+    "pug": "3.0.2",
     "supertest": "6.3.3"
   }
 }
