@@ -19,7 +19,7 @@ jobs:
         id: auth
         name: Authenticate to GCP
         with:
-           service_account: 'my-service-account@chat-9aa9f.iam.gserviceaccount.com' # my-service-account@my-project.iam.gserviceaccount.com
+          service_account: "my-service-account@chat-9aa9f.iam.gserviceaccount.com" # my-service-account@my-project.iam.gserviceaccount.com
           workload_identity_provider: "projects/959102163466/locations/global/workloadIdentityPools/github2/providers/my-repo" # update with your Workload Identity Pool
 
       # configure/login with docker
